@@ -16,5 +16,5 @@ galleryItem.innerHTML = createGallery(galleryItems);
 
 let gallery = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
-  captionDelay: "250ms",
+  captionDelay: 250,
 });
